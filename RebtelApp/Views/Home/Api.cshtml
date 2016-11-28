@@ -1,0 +1,30 @@
+﻿@model List<Users>
+@{
+    ViewBag.Title = "Api Page";
+}
+
+<div class="well" style="margin-top: 20px;">
+    <a href="/users"><h4>Get all users</h4></a>
+    <pre>uri: /users</pre>
+    <a href="/users/1"><h4>Get user by id</h4></a>
+    <pre>uri: /users/{id}</pre>
+    <h4>Create user [POST]</h4>
+    <pre>uri: <abbr class="userUri">/users/create?email=foo@bar.com&firstname=foo&lastname=bar</abbr> <span class="badge" onclick="alert(encodeURI($('.userUri').text()))">encode</span></pre>
+    <h4>Add subscription to user [PUT]</h4>
+    <pre>uri: /users/{userid}/{subid}</pre>
+    <h4>Delete user [DELETE]</h4>
+    <pre>uri: /users/{id}</pre>
+</div>
+
+<div class="well" style="margin-top: 20px;">
+    <a href="/subs"><h4>Get all subscriptions</h4></a>
+    <pre>uri: /subs</pre>
+    <a href="/subs/1"><h4>Get subscription by id</h4></a>
+    <pre>uri: /subs/{id}</pre>
+    <h4>Create subscription [POST]</h4>
+    <pre>uri: <abbr class="subUri">/subs/create?name=50 min deal&price=24&priceincvatamount=30&callminutes=50</abbr> <span class="badge" onclick="alert(encodeURI($('.subUri').text()))">encode</span></pre>
+    <h4>Update subscription data [PUT]</h4>
+    <pre>uri: /subs/{id}</pre>
+    <h4>Delete subscription [DELETE]</h4>
+    <pre>uri: /subs/{id}</pre>
+</div>

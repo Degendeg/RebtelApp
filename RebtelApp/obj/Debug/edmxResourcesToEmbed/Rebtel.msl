@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="rebtelModelStoreContainer" CdmEntityContainer="rebtelEntities">
+    <EntitySetMapping Name="Subscriptions">
+      <EntityTypeMapping TypeName="rebtelModel.Subscriptions">
+        <MappingFragment StoreEntitySet="Subscriptions">
+          <ScalarProperty Name="subscriptionId" ColumnName="subscriptionId" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="priceIncVatAmount" ColumnName="priceIncVatAmount" />
+          <ScalarProperty Name="callminutes" ColumnName="callminutes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="rebtelModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="subId" ColumnName="subId" />
+          <ScalarProperty Name="totalcallminutes" ColumnName="totalcallminutes" />
+          <ScalarProperty Name="totalPriceIncVatAmount" ColumnName="totalPriceIncVatAmount" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="firstname" ColumnName="firstname" />
+          <ScalarProperty Name="lastname" ColumnName="lastname" />
+          <ScalarProperty Name="email" ColumnName="email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
