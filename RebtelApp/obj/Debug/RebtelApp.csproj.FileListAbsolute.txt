@@ -45,6 +45,5 @@ C:\Users\8nwm\Documents\Visual Studio 2015\Projects\RebtelApp\RebtelApp\bin\Newt
 C:\Users\8nwm\Documents\Visual Studio 2015\Projects\RebtelApp\RebtelApp\bin\System.Net.Http.Formatting.xml
 C:\Users\8nwm\Documents\Visual Studio 2015\Projects\RebtelApp\RebtelApp\bin\System.Web.Http.xml
 C:\Users\8nwm\Documents\Visual Studio 2015\Projects\RebtelApp\RebtelApp\bin\System.Web.Http.WebHost.xml
-C:\Users\8nwm\Documents\Visual Studio 2015\Projects\RebtelApp\RebtelApp\obj\Debug\RebtelApp.csprojResolveAssemblyReference.cache
 C:\Users\8nwm\Documents\Visual Studio 2015\Projects\RebtelApp\RebtelApp\obj\Debug\RebtelApp.dll
 C:\Users\8nwm\Documents\Visual Studio 2015\Projects\RebtelApp\RebtelApp\obj\Debug\RebtelApp.pdb

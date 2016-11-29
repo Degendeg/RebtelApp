@@ -21,5 +21,10 @@ namespace RebtelApp.Controllers
         {
             return View();
         }
+
+        public ActionResult Error()
+        {
+            return View();
+        }
     }
 }
